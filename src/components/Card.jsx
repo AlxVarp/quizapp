@@ -1,12 +1,20 @@
-import { useState} from 'react'
+import React from 'react'
 import  './Card.css'
+import Button from './Button'
 
 function Card(){
 
     return (
         <>
           <div className="card">
-            <p>Monda</p>
+            <div>
+              the question
+            </div>
+            <div>
+              <Button />
+              <Button />
+            </div>
+          
           </div>
         </>
       )
